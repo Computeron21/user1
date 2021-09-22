@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // shows login form
         LoginModal();
       } else {
-        alert("GoodBy! Adéu! Txau! Adiós! Ciao!");
+        alert("Bye! Adéu! Txau! Adiós! Ciao!");
         document.querySelector(".user").textContent = "unknown";
         e.target.dataset.log = "in";
         e.target.textContent = "Login";
